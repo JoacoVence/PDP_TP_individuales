@@ -1,4 +1,5 @@
-% TP1 INDIVIDUAL LOGICO VENCE %
+
+% TP1 INDIVIDUAL LÓGICO VENCE %
 
 % BASE DE CONOCIMIENTOS
 
@@ -42,3 +43,20 @@ mata(Asesino, Victima):-
     viveEnLaMansion(Asesino),
     odia(Asesino, Victima),
     not(esMasRico(Asesino, Victima)).
+
+%   Consultas pedidas en la consigna de los puntos 1 y 2 %
+
+% 1 ?- mata(Asesino, agatha).
+% Asesino = agatha .
+
+% 2 ?- odia(charles, Persona).
+% Persona = mayordomo.
+
+% 3 ?- odia(agatha, Persona).
+% Persona = agatha .
+
+% 4 ?- odia(mayordomo, Persona).
+% Persona = agatha .
+
+% 5 ?- odia(Persona, milhouse).
+% false.
