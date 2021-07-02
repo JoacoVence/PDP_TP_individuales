@@ -46,8 +46,12 @@ mata(Asesino, Victima):-
 
 %   Consultas pedidas en la consigna de los puntos 1 y 2 %
 
+% Quien mata a Agatha?
+
 % 1 ?- mata(Asesino, agatha).
 % Asesino = agatha .
+
+% A quien odia cada personaje?
 
 % 2 ?- odia(charles, Persona).
 % Persona = mayordomo.
@@ -57,6 +61,8 @@ mata(Asesino, Victima):-
 
 % 4 ?- odia(mayordomo, Persona).
 % Persona = agatha .
+
+% Alguien odia a Milhouse?
 
 % 5 ?- odia(Persona, milhouse).
 % false.
